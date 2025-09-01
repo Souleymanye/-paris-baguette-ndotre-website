@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/-paris-baguette-ndotre-website/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
